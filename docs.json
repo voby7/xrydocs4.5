@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "theme": "aspen",
+  "name": "Xrypton",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1597a3",
+    "light": "#06c6c9",
+    "dark": "#148076"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -21,14 +21,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Github Repository",
+          "icon": "github",
+          "href": "https://github.com/Xrypton-HQ/Xrypton"
         }
       ]
     },
@@ -43,8 +38,9 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/xry.png",
+    "dark": "/images/xry.png",
+    "href": "https://xrypton.vercel.app"
   },
   "navbar": {
     "links": [
@@ -73,9 +69,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/Xrypton-HQ"
     }
-  }
+  },
+  "description": "Official Xrypton discord bot documentation."
 }
